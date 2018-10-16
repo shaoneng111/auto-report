@@ -1,0 +1,13 @@
+<Content template="freemarker">
+    <![CDATA[
+        <p>根据${theGarten}${five_area}${project}的${develop}的数据，可得出如下数据与分析：</p>
+            <@_chart type="Radar" series="${dimension}" title="${five_area}${project}的${develop}雷达图" data=_f_list_filter(area_score,[4,7]) explain="" >
+                <div>
+                </div>
+            </@_chart>
+            <p>上图每条线代表${theGarten}${five_area}${project}的${develop}，通过上图可以看到${five_area}${project}的${develop}情况，内圆的线条表示${measure}，线条越接近最外圈越好。</p>
+            ${five_area}的${develop}排序：${_f_sortDesc(area_score_map, 'percentage', 'area_name')}
+            <p>${theGarten}的${five_area}${project}的${develop},体现了${theGarten}的发展共性。通过${theGarten}在${five_area}${project}中的${develop}的变化，可以了解${theGarten}教育教学工作在幼儿${five_area}${project}发展上实现的教育效果。</p>
+            <p>通过分析，我们可以看到${five_area}${project}中${theGarten}在${_f_max_property(area_score_map, 'percentage', 'area_name')}发展相较于其他最为突出，属于${theGarten}发展的最优项。${theGarten}在本学期的教育教学工作中，可以进一步关注${_f_min_property(area_score_map, 'percentage', 'area_name')}。幼儿在学前阶段${five_area}${project}都应接受充足的训练与刺激，所以在对${theGarten}的教育教学活动中，应注重幼儿的均衡发展。</p>
+    ]]>
+</Content>
