@@ -89,8 +89,10 @@ public class RdlParserDefault implements IRdlParser{
     }
 
     private Style _parseStyle(Node node) {
-        if (node == null)
+        if (node == null) {
             return null;
+        }
+
         Style style = new Style();
         Node cdataNode = this.getFirstCDATA(node);
         if (cdataNode != null) {

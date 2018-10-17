@@ -193,7 +193,7 @@ public class PdfUtils {
             //     String html = IOUtils.toString(pdfUtils.getClass().getResourceAsStream("/html/test1.html"),"UTF-8");
             String html = IOUtils.toString(pdfUtils.getClass().getResourceAsStream("/html/all.html"),"UTF-8");
             System.out.println(html);
-            byte[] b = pdfUtils.htmlString2pdf(html);
+            byte[] b = PdfUtils.htmlString2pdf(html);
 
            String s =  IOUtils.toString(pdfUtils.getClass().getResourceAsStream(""),"UTF-8");
             System.out.println(s);
