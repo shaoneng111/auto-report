@@ -9,6 +9,7 @@
         <module name="auto-report-engine" />
         <module name="auto-report-pdf" />
         <module name="auto-report-rdl" />
+        <module name="auto-report-rdl-engine" />
       </profile>
     </annotationProcessing>
   </component>

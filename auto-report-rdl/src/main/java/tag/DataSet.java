@@ -11,6 +11,8 @@ public class DataSet {
 
     private String query;
 
+    private String fillQuery;
+
     private String scriptType = "SQL";
 
     private String args;
@@ -41,6 +43,14 @@ public class DataSet {
 
     public void setQuery(String query) {
         this.query = query;
+    }
+
+    public String getFillQuery() {
+        return fillQuery;
+    }
+
+    public void setFillQuery(String fillQuery) {
+        this.fillQuery = fillQuery;
     }
 
     public String getScriptType() {

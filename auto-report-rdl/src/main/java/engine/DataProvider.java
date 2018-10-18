@@ -15,4 +15,9 @@ public class DataProvider implements IDataProvider {
             this.map.put(path, obj);
         }
     }
+
+    @Override
+    public Object get(String name) {
+        return map.get(name);
+    }
 }

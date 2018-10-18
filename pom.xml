@@ -11,6 +11,7 @@
     <modules>
         <module>auto-report-pdf</module>
         <module>auto-report-rdl</module>
+        <module>auto-report-rdl-engine</module>
     </modules>
 
 

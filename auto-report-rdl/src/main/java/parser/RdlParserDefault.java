@@ -150,7 +150,7 @@ public class RdlParserDefault implements IRdlParser{
         dataSet.setArgs(node.valueOf("@args"));
         dataSet.setReturnType(DataSetReturnType.valueOf(node.valueOf("@returnType")));
 
-        List<Node> propertiesNodes = node.selectNodes("./Property");
+        List<Node> propertiesNodes = node.selectNodes(".//Property");
         if (propertiesNodes != null) {
             dataSet.setProperties(propertiesNodes.stream().map(r -> _parseProperty(r)).collect(Collectors.toList()));
         }
@@ -209,8 +209,8 @@ public class RdlParserDefault implements IRdlParser{
 
             if (rootName.toLowerCase().equals("component")) {
                 return this._parseComponent(xmldoc.getRootElement());
-            } else if (rootName.toLowerCase().equals("content")) {
-                return this._parseComponent(xmldoc.getRootElement());
+            } else {
+                return null;
             }
         } catch (UnsupportedEncodingException e) {
             e.printStackTrace();

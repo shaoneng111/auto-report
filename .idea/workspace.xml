@@ -5,19 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9a24eb01-4583-48a2-9b67-f090c9fd5f19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/IDocComponentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/DocComponentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/repository/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/repository/rowmapper/RptDocComponentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-engine/src/main/resources/style/cover.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-engine/src/main/resources/style/doc.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl-engine/auto-report-rdl-engine.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl-engine/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl-engine/src/main/java/DataProviderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl-engine/src/main/java/Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl-engine/src/main/resources/msyh.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/data/IQueryExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/JsonQueryExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/OlapQueryExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/SqlQueryExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/DataProviderFactoryBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/IDataProviderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/RdlParserFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/render/IRdlRender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/render/RdlRenderDefault.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/render/RdlRenderFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-report-engine/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-engine/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/entity/RptDocComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/entity/RptDocComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/DocComponentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/DocComponentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/RptDocTemplateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/RptDocTemplateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auto-report-engine/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-engine/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-report-pdf/target/classes/utils/PdfUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-pdf/target/classes/utils/PdfUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/DataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/DataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/IDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/IDataProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/RdlParserDefault.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/RdlParserDefault.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/DataSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/DataSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-report-rdl/target/classes/engine/DataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-rdl/target/classes/engine/DataProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-report-rdl/target/classes/engine/IDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-rdl/target/classes/engine/IDataProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-report-rdl/target/classes/parser/RdlParserDefault.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-rdl/target/classes/parser/RdlParserDefault.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto-report-rdl/target/classes/tag/DataSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/auto-report-rdl/target/classes/tag/DataSet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/auto-report-pdf/target/" />
     <ignored path="$PROJECT_DIR$/auto-report-rdl/target/" />
     <ignored path="$PROJECT_DIR$/auto-report-engine/target/" />
+    <ignored path="$PROJECT_DIR$/auto-report-rdl-engine/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +57,20 @@
   </component>
   <component name="CompilerWorkspaceConfiguration">
     <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1024166923">
@@ -85,44 +127,47 @@
     <session id="1090940264">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="2" />
-          <entry key="java" value="14" />
+          <entry key="class" value="3" />
+          <entry key="css" value="1" />
+          <entry key="java" value="56" />
           <entry key="properties" value="3" />
-          <entry key="xml" value="1" />
+          <entry key="xml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="14" />
+          <entry key="CLASS" value="3" />
+          <entry key="CSS" value="1" />
+          <entry key="JAVA" value="56" />
           <entry key="Properties" value="3" />
-          <entry key="XML" value="1" />
+          <entry key="XML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="659" />
+          <entry key="java" value="3924" />
           <entry key="properties" value="291" />
           <entry key="txt" value="9" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="659" />
+          <entry key="JAVA" value="3924" />
           <entry key="PLAIN_TEXT" value="9" />
           <entry key="Properties" value="291" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -132,20 +177,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/RptDocTemplateService.java">
+        <entry file="file://$PROJECT_DIR$/auto-report-rdl-engine/src/main/java/DataProviderFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="258">
-              <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+            <state relative-caret-position="503">
+              <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,10 +190,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/IDocComponentService.java">
+        <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/RptDocTemplateService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+            <state relative-caret-position="1503">
+              <caret line="84" column="62" selection-start-line="84" selection-start-column="62" selection-end-line="84" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/IRdlParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/OlapQueryExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/SqlQueryExecutor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#278#279#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,72 +245,24 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/DocComponentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+            <state relative-caret-position="198">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/entity/RptDocComponent.java">
+        <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/JsonQueryExecutor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+            <state relative-caret-position="270">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
               <folding>
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-                <element signature="e#454#455#0" expanded="true" />
-                <element signature="e#482#483#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#580#581#0" expanded="true" />
-                <element signature="e#614#615#0" expanded="true" />
-                <element signature="e#646#647#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#722#723#0" expanded="true" />
-                <element signature="e#762#763#0" expanded="true" />
-                <element signature="e#796#797#0" expanded="true" />
-                <element signature="e#829#830#0" expanded="true" />
-                <element signature="e#878#879#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#982#983#0" expanded="true" />
-                <element signature="e#1024#1025#0" expanded="true" />
-                <element signature="e#1058#1059#0" expanded="true" />
-                <element signature="e#1093#1094#0" expanded="true" />
-                <element signature="e#1125#1126#0" expanded="true" />
-                <element signature="e#1174#1175#0" expanded="true" />
-                <element signature="e#1216#1217#0" expanded="true" />
-                <element signature="e#1247#1248#0" expanded="true" />
-                <element signature="e#1274#1275#0" expanded="true" />
-                <element signature="e#1314#1315#0" expanded="true" />
-                <element signature="e#1346#1347#0" expanded="true" />
-                <element signature="e#1381#1382#0" expanded="true" />
-                <element signature="e#1413#1414#0" expanded="true" />
-                <element signature="e#1462#1463#0" expanded="true" />
-                <element signature="e#1504#1505#0" expanded="true" />
-                <element signature="e#1536#1537#0" expanded="true" />
-                <element signature="e#1564#1565#0" expanded="true" />
-                <element signature="e#1606#1607#0" expanded="true" />
-                <element signature="e#1640#1641#0" expanded="true" />
-                <element signature="e#1672#1673#0" expanded="true" />
-                <element signature="e#1701#1702#0" expanded="true" />
-                <element signature="e#1744#1745#0" expanded="true" />
-                <element signature="e#1780#1781#0" expanded="true" />
-                <element signature="e#2285#2286#0" expanded="true" />
-                <element signature="e#2317#2318#0" expanded="true" />
-                <element signature="e#2367#2368#0" expanded="true" />
-                <element signature="e#2409#2410#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
+                <element signature="e#306#307#0" expanded="true" />
+                <element signature="e#389#390#0" expanded="true" />
+                <element signature="e#416#417#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.2.Final/hibernate-jpa-2.1-api-1.0.2.Final.jar!/javax/persistence/Column.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -238,8 +270,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/RdlParserDefault.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
+            <state relative-caret-position="1467">
+              <caret line="210" column="43" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -248,33 +280,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/AutoReportEngineApplication.java">
+        <entry file="file://$PROJECT_DIR$/auto-report-rdl-engine/src/main/java/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="341">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#281#282#0" expanded="true" />
-                <element signature="e#359#360#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-report-pdf/src/main/java/utils/PdfUtils.java">
+        <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/render/RdlRenderDefault.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="472">
-              <caret line="186" column="5" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auto-report-engine/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="144">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -305,8 +326,6 @@
         <option value="$PROJECT_DIR$/auto-report-rdl/src/test/java/rdltest/function/IndexOfMethod.java" />
         <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/render/ITplRender.java" />
         <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/render/TplRenderDefault.java" />
-        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/IDataProvider.java" />
-        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/DataProvider.java" />
         <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/Property.java" />
         <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/DataSetReturnType.java" />
         <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/Style.java" />
@@ -322,15 +341,32 @@
         <option value="$PROJECT_DIR$/auto-report-rdl/src/test/java/dom4jTest/ContentTest.java" />
         <option value="$PROJECT_DIR$/auto-report-rdl/pom.xml" />
         <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/DataSource.java" />
-        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/DataSet.java" />
         <option value="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/IRptDocTemplateService.java" />
-        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/RdlParserDefault.java" />
         <option value="$PROJECT_DIR$/auto-report-pdf/src/main/java/utils/PdfUtils.java" />
         <option value="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/entity/RptDocComponent.java" />
-        <option value="$PROJECT_DIR$/auto-report-engine/pom.xml" />
         <option value="$PROJECT_DIR$/auto-report-engine/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/DocComponentService.java" />
+        <option value="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/repository/rowmapper/RptDocComponentMapper.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/RdlParserFactory.java" />
+        <option value="$PROJECT_DIR$/auto-report-engine/pom.xml" />
         <option value="$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/RptDocTemplateService.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/RdlParserDefault.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/render/RdlRenderDefault.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/render/RdlRenderFactory.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/render/IRdlRender.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl-engine/src/main/java/Engine.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/IDataProviderFactory.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/IDataProvider.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/DataProviderFactoryBase.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/DataProvider.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/DataSet.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/data/IQueryExecutor.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/OlapQueryExector.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/SqlQueryExector.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/JsonQueryExecutor.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/OlapQueryExecutor.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/SqlQueryExecutor.java" />
+        <option value="$PROJECT_DIR$/auto-report-rdl-engine/src/main/java/DataProviderFactory.java" />
       </list>
     </option>
   </component>
@@ -354,10 +390,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1920" />
-    <option name="y" value="-2" />
-    <option name="width" value="1920" />
-    <option name="height" value="1082" />
+    <option name="x" value="2120" />
+    <option name="y" value="270" />
+    <option name="width" value="1910" />
+    <option name="height" value="810" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -382,8 +418,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -447,11 +482,177 @@
               <item name="services" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-pdf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-pdf" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="render" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tag" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl-engine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl-engine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl-engine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="auto-report" type="b2602c69:ProjectViewProjectNode" />
+              <item name="auto-report" type="462c0819:PsiDirectoryNode" />
+              <item name="auto-report-rdl-engine" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -462,7 +663,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539774976426" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539858178833" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -473,15 +674,17 @@
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="tag" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auto-report-rdl-engine/src/main/resources" />
+      <recent name="$PROJECT_DIR$/auto-report-engine/src/main/resources/style" />
+      <recent name="C:\Users\shao\IdeaProjects\auto-report\auto-report-pdf\src\main\resources\font" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\shao\IdeaProjects\auto-report\auto-report-rdl\src\test\resources" />
       <recent name="C:\Users\shao\IdeaProjects\auto-report\auto-report-pdf\src\main\resources\html" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\shao\IdeaProjects\auto-report\auto-report-pdf\src\main\resources\font" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="tag" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -582,7 +785,8 @@
       <workItem from="1539738060956" duration="4820000" />
       <workItem from="1539748670080" duration="743000" />
       <workItem from="1539754986725" duration="3353000" />
-      <workItem from="1539769510693" duration="5459000" />
+      <workItem from="1539769510693" duration="5588000" />
+      <workItem from="1539824413344" duration="21577000" />
     </task>
     <task id="LOCAL-00001" summary="增加engine">
       <created>1539771403511</created>
@@ -591,11 +795,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539771403511</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加engine">
+      <created>1539775018230</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1539775018230</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65454000" />
+    <option name="totallyTimeSpent" value="87160000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -610,18 +821,16 @@
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49844238" visible="true" weight="0.1970181" />
-      <window_info id="Structure" order="1" sideWeight="0.50155765" side_tool="true" weight="0.16027689" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49688473" visible="true" weight="0.17305644" />
+      <window_info id="Structure" order="1" sideWeight="0.50311524" side_tool="true" weight="0.13365282" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50155765" side_tool="true" weight="0.16027689" />
-      <window_info anchor="bottom" id="Inspection Results" sideWeight="0.49893504" weight="0.3291536" />
-      <window_info anchor="bottom" id="SonarLint" sideWeight="0.49840257" weight="0.3291536" />
+      <window_info id="Favorites" order="6" sideWeight="0.50311524" side_tool="true" weight="0.13365282" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32991454" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" visible="true" weight="0.3584117" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946752" weight="0.3584117" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36225596" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -633,15 +842,17 @@
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5005325" side_tool="true" weight="0.37513062" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49733758" weight="0.3291536" />
       <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Inspection Results" order="14" sideWeight="0.49893504" weight="0.3291536" />
+      <window_info anchor="bottom" id="SonarLint" order="15" sideWeight="0.49840257" visible="true" weight="0.26395938" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24973376" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973376" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32960597" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32960597" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,139 +880,18 @@
       </breakpoints-dialog>
     </breakpoint-manager>
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/render/TplRenderDefault.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/Content.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/Style.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/DataSetReturnType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/DataProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/IRdlParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/Property.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="30" column="36" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/org/dom4j/io/SAXReader.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/org/dom4j/Element.java" />
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/test/java/resources/test.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/freemarker/freemarker/2.3.28/freemarker-2.3.28-sources.jar!/freemarker/template/Configuration.java" />
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/test/java/resources/sample.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/org/dom4j/Document.java" />
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/test/java/rdltest/function/IndexOfMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/test/java/rdltest/TplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-42">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/test/resources/ContentTest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="18" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="14" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/org/dom4j/tree/AbstractElement.java" />
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/Component.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/org/dom4j/QName.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/org/dom4j/tree/DefaultElement.java" />
-    <entry file="jar://C:/Program Files/jdk-11/lib/src.zip!/java.base/java/lang/System.java" />
-    <entry file="jar://C:/Program Files/jdk-11/lib/src.zip!/java.base/java/lang/ClassLoader.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/org/dom4j/tree/AbstractNode.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/org/dom4j/DocumentFactory.java" />
-    <entry file="jar://C:/Program Files/jdk-11/lib/src.zip!/java.base/jdk/internal/loader/ClassLoaders.java" />
-    <entry file="jar://C:/Program Files/jdk-11/lib/src.zip!/java.base/jdk/internal/loader/BuiltinClassLoader.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/org/dom4j/tree/DefaultDocument.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1-sources.jar!/org/dom4j/Node.java" />
     <entry file="jar://C:/Program Files/jdk-11/lib/src.zip!/java.base/java/util/function/Function.java" />
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/DataSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="77" column="43" selection-start-line="77" selection-start-column="43" selection-end-line="77" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/DataSource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="990">
           <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -816,13 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/utils/XmlDocumentUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -857,20 +940,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/RdlParserDefault.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="92" column="24" selection-start-line="92" selection-start-column="24" selection-end-line="92" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="190">
+          <caret line="97" column="50" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-pdf/src/main/java/utils/PdfUtils.java">
+    <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="472">
-          <caret line="186" column="5" selection-start-line="186" selection-start-column="5" selection-end-line="186" selection-end-column="5" />
+        <state relative-caret-position="72">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/IDocComponentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -881,31 +968,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.6.RELEASE/spring-boot-autoconfigure-2.0.6.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="97" column="50" selection-start-line="97" selection-start-column="50" selection-end-line="97" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-engine/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/AutoReportEngineApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="144">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#281#282#0" expanded="true" />
@@ -914,77 +980,327 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-engine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl-engine/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/RdlParserFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/repository/a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/entity/RptDocComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="107" column="38" lean-forward="true" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+        <state relative-caret-position="1098">
+          <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/resources/style/doc.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1080" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/repository/rowmapper/RptDocComponentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
           <folding>
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#454#455#0" expanded="true" />
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#512#513#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#580#581#0" expanded="true" />
-            <element signature="e#614#615#0" expanded="true" />
-            <element signature="e#646#647#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#722#723#0" expanded="true" />
-            <element signature="e#762#763#0" expanded="true" />
-            <element signature="e#796#797#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-            <element signature="e#878#879#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#982#983#0" expanded="true" />
-            <element signature="e#1024#1025#0" expanded="true" />
-            <element signature="e#1058#1059#0" expanded="true" />
-            <element signature="e#1093#1094#0" expanded="true" />
-            <element signature="e#1125#1126#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-            <element signature="e#1247#1248#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1314#1315#0" expanded="true" />
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1462#1463#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
-            <element signature="e#1536#1537#0" expanded="true" />
-            <element signature="e#1564#1565#0" expanded="true" />
-            <element signature="e#1606#1607#0" expanded="true" />
-            <element signature="e#1640#1641#0" expanded="true" />
-            <element signature="e#1672#1673#0" expanded="true" />
-            <element signature="e#1701#1702#0" expanded="true" />
-            <element signature="e#1744#1745#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#2285#2286#0" expanded="true" />
-            <element signature="e#2317#2318#0" expanded="true" />
-            <element signature="e#2367#2368#0" expanded="true" />
-            <element signature="e#2409#2410#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/IDocComponentService.java">
+    <entry file="jar:///usr/lib/jvm/java-10-oracle/lib/src.zip!/java.desktop/java/awt/Font.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        <state relative-caret-position="529">
+          <caret line="1047" column="23" selection-start-line="1047" selection-start-column="23" selection-end-line="1047" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/DocComponentService.java">
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/render/ITplRender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="64" selection-start-line="9" selection-start-column="64" selection-end-line="9" selection-end-column="64" />
+        <state relative-caret-position="36">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/utils/XmlDocumentUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar!/org/dom4j/Node.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-pdf/src/main/java/utils/PdfUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3150">
+          <caret line="195" column="46" selection-start-line="195" selection-start-column="32" selection-end-line="195" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/render/TplRenderDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="53" selection-start-line="5" selection-start-column="53" selection-end-line="5" selection-end-column="53" />
+          <folding>
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#166#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/IDataProviderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/render/RdlRenderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/render/IRdlRender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/DataProviderFactoryBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1042">
+          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/OlapQueryExector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/SqlQueryExector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#304#305#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/IDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#155#156#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/engine/DataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/tag/DataSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="91" column="56" lean-forward="true" selection-start-line="91" selection-start-column="56" selection-end-line="91" selection-end-column="56" />
+          <folding>
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#901#902#0" expanded="true" />
+            <element signature="e#951#952#0" expanded="true" />
+            <element signature="e#993#994#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <element signature="e#1574#1575#0" expanded="true" />
+            <element signature="e#1634#1635#0" expanded="true" />
+            <element signature="e#1678#1679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/data/IQueryExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/RptDocTemplateService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="16" column="26" lean-forward="true" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+        <state relative-caret-position="1503">
+          <caret line="84" column="62" selection-start-line="84" selection-start-column="62" selection-end-line="84" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/IRdlParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/OlapQueryExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/SqlQueryExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-engine/src/main/java/com/example/autoreport/autoreportengine/services/impl/DocComponentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/data/impl/JsonQueryExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#306#307#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/parser/RdlParserDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1467">
+          <caret line="210" column="43" selection-start-line="210" selection-start-column="28" selection-end-line="210" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl-engine/src/main/java/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl/src/main/java/render/RdlRenderDefault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/auto-report-rdl-engine/src/main/java/DataProviderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1031,7 +1347,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>10</last-edited>
+          <last-edited>10 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1043,7 +1359,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>auto-report-engine</last-edited>
+          <last-edited>auto-report-rdl-engine</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
