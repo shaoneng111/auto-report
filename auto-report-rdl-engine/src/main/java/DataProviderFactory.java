@@ -20,10 +20,10 @@ public class DataProviderFactory extends DataProviderFactoryBase {
 
 
     @Override
-    public Object datasetResult(DataSet dataSet, IDataProvider provider) {
+    public Object datasetResult(DataSet dataSet, IDataProvider dataprovider) {
 
         String dsname = dataSet.getDataSource();
-        DataSource dataSource = (DataSource) provider.get(dsname);
+        DataSource dataSource = (DataSource) dataprovider.get(dsname);
 
         IQueryExecutor executor = null;
         String scriptType = dataSet.getScriptType();
@@ -43,6 +43,22 @@ public class DataProviderFactory extends DataProviderFactoryBase {
 
         //Query, 参数实例化
         //DataSet有属性，或没属性
+        String argsStr = dataSet.getArgs();
+        if (argsStr != null && argsStr.equals("")) {
+            String[] argsItems = argsStr.split(";");
+
+            if (argsItems != null && argsItems.length > 0) {
+                //
+                Object[] argsObjects = new Object[argsItems.length];
+                for (int i = 0; i < argsObjects.length; i++) {
+                    argsObjects[i] = dataprovider.get(argsItems[i]);
+                }
+                dataSet.setFillQuery(String.format(dataSet.getQuery(),argsObjects));
+            }
+        }else {
+
+        }
+
 
         return null;
     }
