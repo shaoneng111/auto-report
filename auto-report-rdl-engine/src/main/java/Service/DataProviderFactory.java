@@ -1,3 +1,5 @@
+package Service;
+
 import data.IQueryExecutor;
 import data.impl.JsonQueryExecutor;
 import data.impl.OlapQueryExecutor;

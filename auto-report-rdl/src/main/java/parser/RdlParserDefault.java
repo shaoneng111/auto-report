@@ -85,7 +85,7 @@ public class RdlParserDefault implements IRdlParser{
         if (styleNode != null) {
             res.setStyle(this._parseStyle(styleNode));
         }
-        return  null;
+        return  res;
     }
 
     private Style _parseStyle(Node node) {

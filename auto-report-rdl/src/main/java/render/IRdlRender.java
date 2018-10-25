@@ -1,5 +1,8 @@
 package render;
 
+import engine.IDataProviderFactory;
+import tag.Document;
+
 /**
  * @author shao
  * @date 18-10-18
@@ -7,4 +10,5 @@ package render;
  */
 public interface IRdlRender {
 
+    public String render(Document document, IDataProviderFactory provider);
 }

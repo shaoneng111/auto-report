@@ -1,0 +1,88 @@
+@page{
+/*	margin:70px 40px 60px 40px;   */
+	margin:70px 60px 60px 60px;
+	
+}
+@page {
+	@bottom-center {
+		content: counter(page) "/" counter(pages);
+	}
+}
+* {
+    margin: 0 0;
+    padding: 0 0;
+}
+.page{
+	page-break-after: always;
+}
+* {
+    text-indent: 25px;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.cmp_container img {
+    margin: 0 auto;
+    display: block;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.table tr, .table td, .table th {
+    border: 1px solid #000000;
+	text-indent: 0px;
+    padding: 2px 2px;
+    
+    font-size: 14px;
+    line-height: 26px;
+    
+}
+
+.table
+
+.tableHeader {
+
+}
+
+.tableRow {
+
+}
+.barTitle{
+	text-align: center;
+    display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+body {
+    counter-reset: h2;
+}
+
+h2 {
+    counter-reset: h3;
+    font-size: 22px;
+    display:block;
+    text-align:center;
+}
+
+h3 {
+    counter-reset: h4;
+    font-size: 18px;
+}
+
+h4 {
+    counter-reset: h5;
+    font-size: 16px;
+}
+
+h5 {
+    counter-reset: h6;
+    font-size: 16px;
+}
