@@ -1,5 +1,6 @@
 package engine;
 
+import tag.Component;
 import tag.Document;
 
 /**
@@ -10,4 +11,6 @@ import tag.Document;
 public interface IDataProviderFactory {
 
     public IDataProvider getDataProvider(Document doc);
+
+    public IDataProvider getDataProvider(Component cmp, IDataProvider parent);
 }

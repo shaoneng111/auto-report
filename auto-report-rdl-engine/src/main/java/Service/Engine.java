@@ -1,5 +1,6 @@
 package Service;
 
+import render.RdlRenderFactory;
 import tag.Document;
 
 import java.awt.*;
@@ -32,6 +33,7 @@ public class Engine {
         //构建data provider
         //渲染xml
         String htmlStr = null;
+        htmlStr = RdlRenderFactory.getRdlRender().render(doc, new DataProviderFactory());
         return htmlStr;
     }
 

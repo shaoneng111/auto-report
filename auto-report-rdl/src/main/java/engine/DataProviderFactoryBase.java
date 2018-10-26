@@ -1,9 +1,6 @@
 package engine;
 
-import tag.DataSet;
-import tag.DataSource;
-import tag.Document;
-import tag.Property;
+import tag.*;
 
 import java.util.List;
 
@@ -46,7 +43,7 @@ public abstract class DataProviderFactoryBase implements IDataProviderFactory {
             List<DataSet> dataSets = doc.getData().getDataSets();
             if (dataSets != null && dataSets.size() > 0) {
                 dataSets.forEach(dataSet -> {
-                    dataProvider.put(dataSet.getName(), this.datasetResult(dataSet, dataProvider));
+                    dataProvider.put(dataSet.getName(), this._datasetResult(dataSet, dataProvider));
                 });
             }
 
@@ -69,5 +66,46 @@ public abstract class DataProviderFactoryBase implements IDataProviderFactory {
 //        list.stream().map(r -> r * r).collect(Collectors.toList());
     }
 
-    public abstract Object datasetResult(DataSet dataSet, IDataProvider provider);
+
+
+    @Override
+    public IDataProvider getDataProvider(Component cmp, IDataProvider parent) {
+        
+        return _fillComponentPropeties(cmp, parent);
+    }
+
+    private IDataProvider _fillComponentPropeties(Component cmp, IDataProvider parentProvider) {
+
+        IDataProvider selfProvider = new DataProvider();
+        selfProvider.setParent(parentProvider);
+
+        if (cmp.getData() != null) {
+            List<Property> properties = cmp.getData().getProperties();
+
+            if (properties != null && properties.size() > 0) {
+                _listAdd(properties, selfProvider);
+            }
+
+            List<DataSource> dsList = cmp.getData().getDataSources();
+
+            if (dsList != null && dsList.size() > 0) {
+                dsList.stream().forEach(dataSource -> {
+                    selfProvider.put(dataSource.getName(), selfProvider);
+                });
+            }
+
+            List<DataSet> dataSets = cmp.getData().getDataSets();
+
+            if (dataSets != null && dataSets.size() > 0) {
+                dataSets.stream().forEach(dataSet -> {
+                    selfProvider.put(dataSet.getName(), this._datasetResult(dataSet, selfProvider));
+                });
+            }
+        }
+
+        return  selfProvider;
+    }
+
+    public abstract Object _datasetResult(DataSet dataSet, IDataProvider provider);
+
 }

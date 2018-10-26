@@ -6,6 +6,8 @@ import data.impl.OlapQueryExecutor;
 import data.impl.SqlQueryExecutor;
 import engine.DataProviderFactoryBase;
 import engine.IDataProvider;
+import render.TplRenderFactory;
+import tag.Component;
 import tag.DataSet;
 import tag.DataSource;
 
@@ -22,7 +24,7 @@ public class DataProviderFactory extends DataProviderFactoryBase {
 
 
     @Override
-    public Object datasetResult(DataSet dataSet, IDataProvider dataprovider) {
+    public Object _datasetResult(DataSet dataSet, IDataProvider dataprovider) {
 
         String dsname = dataSet.getDataSource();
         DataSource dataSource = (DataSource) dataprovider.get(dsname);
@@ -58,9 +60,13 @@ public class DataProviderFactory extends DataProviderFactoryBase {
                 dataSet.setFillQuery(String.format(dataSet.getQuery(),argsObjects));
             }
         }else {
-
+            //
+            dataSet.setFillQuery(TplRenderFactory.getTplRender("freemaker").render(dataSet.getQuery(), dataprovider));
         }
 
+        Object object = null;
+
+        object = executor.getQueryResult(executor.getConnection(dataSource), dataSet);
 
         return null;
     }
@@ -93,5 +99,6 @@ public class DataProviderFactory extends DataProviderFactoryBase {
         return connection;
 
     }
+
 
 }

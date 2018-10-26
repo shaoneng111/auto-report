@@ -17,6 +17,7 @@ public class AutoReportEngineApplicationTests {
     @Test
     public void contextLoads() {
         rptDocTemplateService.preview(1, false, null);
+ //       System.out.println("hello");
     }
 
 }
